@@ -1,0 +1,6 @@
+[target.x86_64-pc-windows-msvc] # LLD使用(nightlyのみ)
+linker = "rust-lld.exe"
+rustflags = ["-Zshare-generics=y"]
+
+[profile.dev] # compile時間改善 debug情報が行番号のみに macro使用時に遅い場合は効果的
+debug = 1

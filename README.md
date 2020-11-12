@@ -28,3 +28,9 @@
 - food_height ： 餌の縦サイズ(pixel)を指定します。
 - food_pop ： 餌の出現頻度を(1/1000秒)単位で指定します。このタイミングでコンソールのスコア表示が更新されます。
 - tail_shrink ： ここを「true」にすると、止まっている間、ヘビの尾が収縮していきます。
+
+## Notice
+Rustでコンパイルする際はnightly版をお使いください。  
+rustup default nightly  
+rustup update  
+でnightlyの最新版に設定できます。  

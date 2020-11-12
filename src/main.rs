@@ -33,9 +33,13 @@ fn config_load() -> Config { // 設定データをconfig.txtから読み込ん�
     for line in file_open("config.txt").lines() {
         x.push(format!("{}",&line[line.find(':').unwrap()+1..]));
     }
+    let mut sx: u32 = x[0].parse().unwrap();
+    let mut sy: u32 = x[1].parse().unwrap();
+    sx = if sx < 3 { 3 } else { sx };
+    sy = if sy < 3 { 3 } else { sy };
     Config {
-        sna_x: x[0].parse().unwrap(),
-        sna_y: x[1].parse().unwrap(),
+        sna_x: sx,
+        sna_y: sy,
         sna_s: x[2].parse().unwrap(),
         win_width: x[3].parse().unwrap(),
         win_height: x[4].parse().unwrap(),

@@ -1,5 +1,5 @@
 # Snake2 - AariaToys
-[AariaToys](https://github.com/Aariar/bevy_games/tree/main/AariaToys)の第2作、[ヘビゲーム](https://github.com/marcusbuffett/bevy_snake)から派生したBevy製ゲームで[Snake](https://github.com/Aariar/snake)の第2弾です。  
+[AariaToys](https://github.com/Aariar/bevy_games/tree/main/AariaToys)の第2作、[ヘビゲーム](https://github.com/marcusbuffett/bevy_snake)から派生したBevy製ゲームで[Snake](https://github.com/Aariar/snake)の第2弾です。(→[紹介ページ](https://www.aaria.net/2020/11/138.html))  
 <img src="https://1.bp.blogspot.com/-q2bYPY2eJUM/X60G2pH0rHI/AAAAAAAABD0/-vc3_B2NL28MbK2K8lpoZg7HafmAttZiwCLcBGAsYHQ/s320/snake2.png" width=320>
 ## Game rules
 前作の[Snake](https://github.com/Aariar/snake)と比べ、以下のような変更があります。

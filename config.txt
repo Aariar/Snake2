@@ -1,9 +1,9 @@
-snake_width:15
-snake_height:15
+snake_width:12
+snake_height:12
 snake_speed:3
-win_width:1000
-win_height:1000
-food_width:10
-food_height:10
-food_pop:500
+win_width:1200
+win_height:1200
+food_width:8
+food_height:8
+food_pop:1000
 tail_shrink:false

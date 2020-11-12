@@ -34,3 +34,7 @@ Rustでコンパイルする際はnightly版をお使いください。
 rustup default nightly  
 rustup update  
 でnightlyの最新版に設定できます。  
+
+## Data
+- compile time ： 10m 17s (cargo run --release) ※飽くまで目安です  
+- exe file ： 12.8MB
